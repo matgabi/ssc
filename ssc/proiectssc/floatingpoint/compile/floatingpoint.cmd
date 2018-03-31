@@ -1,1 +1,0 @@
--w -s "E:\proiectssc\library.cfg"  -j "E:\proiectssc\floatingpoint\projlib.cfg"  -d "E:\proiectssc\floatingpoint\compile\"  -work floatingpoint -dbg -e 100 "E:\proiectssc\floatingpoint\src\alu.vhd" 

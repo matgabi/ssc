@@ -1,5 +1,0 @@
-MESSAGE "File: e:\An3lab\ssc\ssc_l\num\src\divcontrolunit.vhd" 
-MESSAGE "Compile Entity "divcontrolunit"" 
-MESSAGE "Entity `divcontrolunit' has been skipped - no difference detected." 
-MESSAGE "Compile Architecture "divcontrolunit" of Entity "divcontrolunit"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]" 
