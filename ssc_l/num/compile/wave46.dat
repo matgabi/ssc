@@ -1,0 +1,21 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#18#SIGNED(n downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS S 21 1 5 Xtmp
+$SC 1-17/4
+$BUS S 42 1 5 Ytmp
+$SC 22-38/4
+$BUS S 63 1 5 Stmp
+$SC 43-59/4
+I 3 "a#32#std_logic_vector((n-1) downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 80 3 4 X
+$SC 64-76/4
+$BUS IN 97 3 4 Y
+$SC 81-93/4
+$IN +5 2 Tin
+$BUS OUT +20 3 4 S
+$SC 102-+12/4
+$OUT +5 2 Tout
+$OUT +4 2 OVF
+$ENDWAVE

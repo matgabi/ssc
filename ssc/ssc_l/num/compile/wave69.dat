@@ -1,0 +1,63 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 Start
+$IN 5 1 Rst
+$IN 9 1 Clk
+I 2 "a#32#std_logic_vector((n-1) downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 45 2 8 Y
+$SC 13-41/4
+$OUT +5 1 Term
+$S +4 1 CEB
+$S +4 1 SubB
+$S +4 1 LoadA
+$S +4 1 CEA
+$S +4 1 RstA
+$S +4 1 LoadQ
+$S +4 1 CEQ
+$S +4 1 CEQ0
+$OUT +4 1 ZeroDiv
+$S +4 1 Tout
+$S +4 1 OVF
+$S +4 1 Q0
+$S 78 0 CEQ0
+$S 50 0 CEB
+$S +4 0 SubB
+$S +4 0 LoadA
+$S 70 0 LoadQ
+$S 62 0 CEA
+$S 74 0 CEQ
+$S 66 0 RstA
+$BUS S +64 2 8 Qfdn
+$SC 98-+28/4
+$S +5 1 SelectInitValue
+$S +4 1 Q0input
+$BUS S +36 2 8 XorSubB
+$SC 139-+28/4
+$BUS S +37 2 8 XorResult
+$SC 172-+28/4
+I 3 "a#28#std_logic_vector(n downto 0)1 ricd8 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +41 3 9 Aqout
+$SC 205-+32/4
+I 4 "a#32#std_logic_vector((n-2) downto 0)1 ricd6 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +33 4 7 Qqout
+$SC 242-+24/4
+$BUS S +37 2 8 S
+$SC 271-+28/4
+$BUS S +41 3 9 AcumIn
+$SC 304-+32/4
+$IN 9 0 Clk
+$IN 5 0 Rst
+$IN 1 0 Start
+I 5 "a#34#std_logic_vector((2*n-1) downto 0)1 ricd15 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 405 5 16 X
+$SC 341-+60/4
+$BUS IN +5 2 8 Y
+$SC 13-41/4
+$BUS OUT 443 3 9 A
+$SC 407-+32/4
+$BUS OUT +37 2 8 Q
+$SC 444-+28/4
+$OUT 46 0 Term
+$OUT 82 0 ZeroDiv
+$ENDWAVE

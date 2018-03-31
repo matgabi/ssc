@@ -1,0 +1,5 @@
+i<>.\src\simpleregister.vhd
+i<>.\src\shiftleftregister.vhd
+i<>.\src\shiftrightregister.vhd
+i<>.\src\mux21.vhd
+i<>.\src\alu.vhd

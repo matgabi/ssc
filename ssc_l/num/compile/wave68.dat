@@ -1,0 +1,55 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 Start
+$IN 5 1 Rst
+$IN 9 1 Clk
+$S +4 1 Q0
+$S +4 1 Qm1
+$OUT +4 1 Term
+$S +4 1 CEB
+$S +4 1 SubB
+$S +4 1 LoadA
+$S +4 1 LoadQ
+$S +4 1 CEA
+$S +4 1 CEQ
+$S +4 1 RstQm1
+$S +4 1 RstA
+$S +4 1 Tout
+$S +4 1 OVF
+$S 13 0 Q0
+$S +4 0 Qm1
+$S +8 0 CEB
+$S +4 0 SubB
+$S +4 0 LoadA
+$S +4 0 LoadQ
+$S +4 0 CEA
+$S +4 0 CEQ
+$S +4 0 RstQm1
+$S +4 0 RstA
+I 2 "a#32#std_logic_vector((n-1) downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 81 2 4 Qfdn
+$SC 65-77/4
+$BUS S 98 2 4 XorSubB
+$SC 82-94/4
+$BUS S +21 2 4 XorResult
+$SC 99-+12/4
+$BUS S +21 2 4 Aqout
+$SC 116-+12/4
+$BUS S +21 2 4 Qqout
+$SC 133-+12/4
+$BUS S +21 2 4 S
+$SC 150-+12/4
+$IN 9 0 Clk
+$IN 5 0 Rst
+$IN 1 0 Start
+$BUS IN 183 2 4 X
+$SC 167-+12/4
+$BUS IN +21 2 4 Y
+$SC 184-+12/4
+$BUS OUT +21 2 4 A
+$SC 201-+12/4
+$BUS OUT +21 2 4 Q
+$SC 218-+12/4
+$OUT 21 0 Term
+$ENDWAVE

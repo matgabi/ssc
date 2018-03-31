@@ -1,0 +1,23 @@
+elbread.dll ver. 1.0.5.365 Fri Mar 30 21:41:16 2018
+
+
+------------------------------------------
+Entity          | Architecture   | Library
+------------------------------------------
+divrrest        | divrrest       | num
+divcontrolunit  | divcontrolunit | num
+fdn             | fdn            | num
+divsrrn         | divsrrn        | num
+fd              | fd             | num
+sumbooth        | sumbooth       | num
+------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+numeric_std         | ieee
+-----------------------------

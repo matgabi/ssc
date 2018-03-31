@@ -1,0 +1,110 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#TIP_STAREs5 idle init sum depl finish "
+$S 1 1 Stare
+I 2 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 3 "e#9#std_logicc9 UX01ZWLH-"
+$BUS S 37 2 8 Counter
+$SC 5-33/4
+$IN +5 3 Start
+$IN +4 3 Rst
+$IN +4 3 Clk
+$IN +4 3 Q0
+$IN +4 3 Qm1
+$OUT +4 3 Term
+$OUT +4 3 CEB
+$OUT +4 3 SubB
+$OUT +4 3 LoadA
+$OUT +4 3 LoadQ
+$OUT +4 3 CEA
+$OUT +4 3 CEQ
+$OUT +4 3 RstQm1
+$OUT +4 3 RstA
+$ENDTIME 100000
+$WAVES 1
+=0 T 0
+$VALUES
+V 1
+idle
+$END
+$WAVES 46
+*0
+R 1 2 =1 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 5-33/4
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES +5 +4 +8 +4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES +4-90/4
+*0
+=2 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$ENDTIME 200000
+$WAVES 1
+=3 D 150k 1
+$VALUES
+V 1
+init
+$END
+$WAVES 46
+=4 T 150k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 38
+=5 D 100k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 86
+=6 D 150k 2
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*6
+$VALUES
+V 1
+1
+$END
+$WAVES 74
+*6
+$VALUES
+V 1
+1
+$END
+$WAVES +8
+*6
+$VALUES
+V 1
+1
+$END
+$WAVES 62
+*6
+$VALUES
+V 1
+1
+$END
+$ENDWAVE

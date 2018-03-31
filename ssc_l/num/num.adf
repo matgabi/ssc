@@ -1,0 +1,90 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=num
+
+[Library]
+num=.\num.lib
+
+[$LibMap$]
+num=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=divcontrolunit|divcontrolunit|0 divrrest|divrrest|0 mulbooth|behavioral|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/num4.vhd=-1
+/num4_tb.vhd=-1
+/fft.vhd=-1
+/automat53.vhd=-1
+/automat53_tb.vhd=-1
+/automat532.vhd=-1
+/secv.vhd=-1
+/sum2bant.vhd=-1
+/sum8bant.vhd=-1
+/sum8_tb.vhd=-1
+/displ7seg.vhd=-1
+/sumnexys.vhd=-1
+/sum8generate.vhd=-1
+/sume.vhd=-1
+/mul.vhd=-1
+/mulnexys.vhd=-1
+/fdn.vhd=-1
+/fd.vhd=-1
+/srrn.vhd=-1
+/sumbooth.vhd=-1
+/controlunit.vhd=-1
+/mulbooth.vhd=-1
+/boothnexys.vhd=-1
+/divcontrolunit.vhd=-1
+/divsrr.vhd=-1
+/divrrest.vhd=-1
+
+[Files.Data]
+.\src\num4.vhd=VHDL Source Code
+.\src\num4_tb.vhd=VHDL Source Code
+.\src\fft.vhd=VHDL Source Code
+.\src\automat53.vhd=VHDL Source Code
+.\src\automat53_tb.vhd=VHDL Source Code
+.\src\automat532.vhd=VHDL Source Code
+.\src\secv.vhd=VHDL Source Code
+.\src\sum2bant.vhd=VHDL Source Code
+.\src\sum8bant.vhd=VHDL Source Code
+.\src\sum8_tb.vhd=VHDL Source Code
+.\src\displ7seg.vhd=VHDL Source Code
+.\src\sumnexys.vhd=VHDL Source Code
+.\src\sum8generate.vhd=VHDL Source Code
+.\src\sume.vhd=VHDL Source Code
+.\src\mul.vhd=VHDL Source Code
+.\src\mulnexys.vhd=VHDL Source Code
+.\src\fdn.vhd=VHDL Source Code
+.\src\fd.vhd=VHDL Source Code
+.\src\srrn.vhd=VHDL Source Code
+.\src\sumbooth.vhd=VHDL Source Code
+.\src\controlunit.vhd=VHDL Source Code
+.\src\mulbooth.vhd=VHDL Source Code
+.\src\boothnexys.vhd=VHDL Source Code
+.\src\divcontrolunit.vhd=VHDL Source Code
+.\src\divsrr.vhd=VHDL Source Code
+.\src\divrrest.vhd=VHDL Source Code
+

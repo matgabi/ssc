@@ -1,0 +1,463 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#2#PP1 rict0 7 a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 3 "e#9#std_logicc9 UX01ZWLH-"
+$BUS S 257 1 8 Partp
+$SC 1-253/4
+I 4 "a#4#AndG1 rict0 7 a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 522 4 8 Andgate
+$SC 266-518/4
+I 5 "a#1#S1 rict0 7 a#28#std_logic_vector(8 downto 0)1 ricd8 0 e#9#std_logicc9 UX01ZWLH-"
+I 6 "a#28#std_logic_vector(8 downto 0)1 ricd8 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 819 5 8 Sum
+$SC 531-815/4
+I 7 "a#2#Tr1 rict0 6 a#28#std_logic_vector(8 downto 0)1 ricd8 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +265 7 7 Trans
+$SC 828-+248/4
+$BUS IN +44 2 8 X
+$SC +-32-+28/4
+$BUS IN +37 2 8 Y
+$SC +-32-+28/4
+I 8 "a#29#std_logic_vector(15 downto 0)1 ricd15 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +69 8 16 P
+$SC +-64-+60/4
+$ENDTIME 7000000
+$WAVES 1-253/4 531 860-+216/36
+=0 T 0
+=1 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 266-518/4
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES +17-+28/4 856-+216/36
+*0
+=2 D 0 2
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 567-+24/4 +40 +4 884-+180/36 +146
+*0
+=3 D 0 4
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 595 +4 828-+24/4 +36-+180/36 +146
+*0
+=4 D 0 3
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 603-+16/4 +40 +4 +40 +4 912-+144/36 +146
+*0
+=5 D 0 6
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 623 +4 +40 +4 864-+16/4 +36-+144/36 +146
+*0
+=6 D 0 5
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 639-+8/4 +40 +4 +40 +4 +40 +4 940-+108/36 +146
+*0
+=7 D 0 8
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 651 +4 +40 +4 +40 +4 900-+8/4 +36-+108/36 +146
+*0
+=8 D 0 7
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 675 +36-+8/4 +28 +12 +4-+40/20 +4 +347 +28 +4
+*0
+=9 D 0 10
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 679 +4 +40 +4 +40 +4 +40 +4 936-+108/36 +146
+*0
+=10 D 0 9
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 751 +4 +40 +4 +375 +4
+*0
+=11 D 0 11
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 787 +4 +375 +4
+*0
+=12 D 0 12
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +-82-+28/4 +5-+28/4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES +9 +4
+*0
+=13 D 0 13
+$VALUES
+V 2
+U
+0
+$END
+$ENDTIME 14000000
+$WAVES +-17
+=14 D 7000k 1
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*14
+$VALUES
+V 1
+1
+$END
+$WAVES +-33
+*14
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*14
+*1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 29
+=15 D 7000k 2
+$VALUES
+V 1
+1
+$END
+$WAVES 25
+*15
+$VALUES
+V 1
+1
+$END
+$WAVES 61
+*15
+$VALUES
+V 1
+1
+$END
+$WAVES 57
+*15
+$VALUES
+V 1
+1
+$END
+$WAVES 595
+=16 D 7000k 3
+*3
+*6
+$VALUES
+V 3
+1
+0
+1
+$END
+$WAVES +4
+*16
+*3
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 563
+*16
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*16
+$VALUES
+V 1
+1
+$END
+$WAVES 852
+=17 D 7000k 4
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*17
+$VALUES
+V 1
+1
+$END
+$WAVES +358
+*17
+$VALUES
+V 1
+1
+$END
+$WAVES 635
+*17
+*6
+$VALUES
+V 2
+1
+0
+$END
+$WAVES +575
+*17
+*6
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 631
+*17
+*6
+*5
+$VALUES
+V 3
+1
+0
+1
+$END
+$WAVES +36
+=18 D 7000k 5
+*5
+*8
+$VALUES
+V 3
+1
+0
+1
+$END
+$WAVES +4
+*18
+*5
+$VALUES
+V 2
+1
+0
+$END
+$WAVES +535
+*18
+*5
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 591
+*18
+$VALUES
+V 1
+1
+$END
+$WAVES +36
+=19 D 7000k 6
+$VALUES
+V 1
+1
+$END
+$WAVES +80
+*19
+*8
+$VALUES
+V 2
+1
+0
+$END
+$WAVES +495
+*19
+*8
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 703
+*19
+*8
+*7
+$VALUES
+V 3
+1
+0
+1
+$END
+$WAVES +36
+=20 D 7000k 7
+*7
+*10
+$VALUES
+V 3
+1
+0
+1
+$END
+$WAVES +4
+*20
+*7
+$VALUES
+V 2
+1
+0
+$END
+$WAVES +455
+*20
+*7
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 663
+*20
+$VALUES
+V 1
+1
+$END
+$WAVES +36
+=21 D 7000k 8
+$VALUES
+V 1
+1
+$END
+$WAVES +80
+*21
+*10
+$VALUES
+V 2
+1
+0
+$END
+$WAVES +415
+*21
+*10
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 775
+*21
+*10
+*9
+$VALUES
+V 3
+1
+0
+1
+$END
+$WAVES +36
+=22 D 7000k 9
+*9
+*11
+$VALUES
+V 3
+1
+0
+1
+$END
+$WAVES +4
+*22
+*9
+$VALUES
+V 2
+1
+0
+$END
+$WAVES +375
+*22
+*9
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 735
+*22
+$VALUES
+V 1
+1
+$END
+$WAVES +36
+=23 D 7000k 10
+$VALUES
+V 1
+1
+$END
+$WAVES +415
+*23
+*11
+$VALUES
+V 2
+1
+0
+$END
+$WAVES +-4
+*23
+*11
+*12
+$VALUES
+V 3
+1
+0
+1
+$END
+$WAVES 807
+=24 D 7000k 11
+$VALUES
+V 1
+1
+$END
+$WAVES +371
+=25 D 7000k 12
+$VALUES
+V 1
+1
+$END
+$ENDWAVE
